@@ -1,0 +1,5 @@
+#Creare Producer Kafka din consola (terminal) - exemplu
+./bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic topic
+
+#Creare Consumer Kafka din consola (terminal) - exemplu
+./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic topic --from-beginning
